@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmeda Root | متجر الخدمات الرقمية</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #fe2c55;
+            --secondary: #25f4ee;
+            --dark: #0a0a0a;
+            --card-bg: #161616;
+            --whatsapp: #25d366;
+        }
+
+        body {
+            background-color: var(--dark);
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding-bottom: 50px;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+
+        .header h1 { margin: 0; font-size: 2.5em; text-transform: uppercase; letter-spacing: 2px; }
+        .header p { margin: 10px 0 0; opacity: 0.9; font-size: 1.1em; }
+
+        .container { padding: 20px; max-width: 800px; margin: auto; }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            margin: 30px 0 15px;
+            padding-right: 10px;
+            border-right: 4px solid var(--secondary);
+        }
+
+        .section-title i { margin-left: 10px; font-size: 1.5em; }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #333;
+            transition: transform 0.3s;
+        }
+
+        .card:hover { transform: translateY(-5px); border-color: var(--secondary); }
+
+        .card h3 { margin: 0; font-size: 0.9em; color: #ccc; }
+        .card .price {
+            display: block;
+            margin: 10px 0;
+            font-size: 1.4em;
+            color: var(--secondary);
+            font-weight: bold;
+        }
+
+        .btn-order {
+            background: var(--whatsapp);
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 8px;
+            font-size: 0.85em;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .btn-order:hover { filter: brightness(1.2); }
+
+        .footer-note {
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Ahmeda Root 🚀</h1>
+        <p>المصدر الأول لخدمات التواصل الاجتماعي في ليبيا</p>
+    </div>
+
+    <div class="container">
+        
+        <!-- قسم تيك توك -->
+        <div class="section-title">
+            <i class="fab fa-tiktok"></i>
+            <h2>خدمات تيك توك</h2>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <h3>1000 متابع</h3>
+                <span class="price">5 د.ل</span>
+                <a href="https://wa.me/218919658243?text=اريد+خدمة+1000+متابع+تيكتوك" class="btn-order"><i class="fab fa-whatsapp"></i> اطلب الآن</a>
+            </div>
+            <div class="card">
+                <h3>10,000 مشاهدة</h3>
+                <span class="price">2 د.ل</span>
+                <a href="https://wa.me/218919658243?text=اريد+خدمة+10000+مشاهدة+تيكتوك" class="btn-order"><i class="fab fa-whatsapp"></i> اطلب الآن</a>
+            </div>
+        </div>
+
+        <!-- قسم إنستغرام -->
+        <div class="section-title">
+            <i class="fab fa-instagram"></i>
+            <h2>خدمات إنستغرام</h2>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <h3>1000 متابع</h3>
+                <span class="price">4 د.ل</span>
+                <a href="https://wa.me/218943977224?text=اريد+متابعين+انستقرام" class="btn-order"><i class="fab fa-whatsapp"></i> اطلب الآن</a>
+            </div>
+            <div class="card">
+                <h3>500 لايك</h3>
+                <span class="price">1.5 د.ل</span>
+                <a href="https://wa.me/218943977224?text=اريد+لايكات+انستقرام" class="btn-order"><i class="fab fa-whatsapp"></i> اطلب الآن</a>
+            </div>
+        </div>
+
+        <!-- قسم فيسبوك -->
+        <div class="section-title">
+            <i class="fab fa-facebook"></i>
+            <h2>خدمات فيسبوك</h2>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <h3>1000 متابع صفحة</h3>
+                <span class="price">7 د.ل</span>
+                <a href="https://wa.me/218919658243?text=اريد+متابعين+فيسبوك" class="btn-order"><i class="fab fa-whatsapp"></i> اطلب الآن</a>
+            </div>
+            <div class="card">
+                <h3>1000 لايك منشور</h3>
+                <span class="price">3 د.ل</span>
+                <a href="https://wa.me/218919658243?text=اريد+لايكات+فيسبوك" class="btn-order"><i class="fab fa-whatsapp"></i> اطلب الآن</a>
+            </div>
+        </div>
+
+        <p class="footer-note">الدفع عبر: سداد - مدار - ليبيانا</p>
+        <p class="footer-note">جميع الحقوق محفوظة لـ Ahmeda Root © 2026</p>
+    </div>
+
+</body>
+</html>
