@@ -1,0 +1,9 @@
+pyTelegramBotAPI
+
+anthropic
+
+openai
+
+google-genai
+
+flask
